@@ -1,0 +1,58 @@
+* {
+    font-family: "Comic Neue";
+}
+
+body {
+    background-color: #f1f1f1;
+    margin: 0;
+}
+
+p {
+    font-size: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+header h3 {
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.vago {
+    background-color: #f1f1f1;
+}
+
+.div-main {
+    display: flex;
+    justify-content: center;
+}
+
+.div-resultados {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    width: 90%;
+    flex-wrap: wrap;
+}
+
+.dias {
+    background-color: white;
+    width: 360px;
+    padding: 10px;
+    border-radius: 1%;
+}
+
+.dias h2 {
+    text-align: center;
+}
