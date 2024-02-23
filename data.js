@@ -35,7 +35,7 @@ export const data = {
             },
             {
                 horario: '14h',
-                aluno: 'Lucas Python Ciencia da C.'
+                aluno: 'Paulo Victor - React'
             },
             {
                 horario: '15h',
@@ -59,7 +59,7 @@ export const data = {
             },
             {
                 horario: '20h',
-                aluno: 'Dentista'
+                aluno: 'Lucas Python'
             },
             {
                 horario: '21h',
@@ -123,7 +123,7 @@ export const data = {
             },
             {
                 horario: '18h',
-                aluno: 'Vago'
+                aluno: 'Lucas Python'
             },
             {
                 horario: '19h',
@@ -179,7 +179,7 @@ export const data = {
             },
             {
                 horario: '14h',
-                aluno: 'Lucas Cien. Computação'
+                aluno: 'Paulo Victor - React'
             },
             {
                 horario: '15h',
@@ -203,7 +203,7 @@ export const data = {
             },
             {
                 horario: '20h',
-                aluno: 'Vago'
+                aluno: 'Lucas Python'
             },
             {
                 horario: '21h',
@@ -299,15 +299,15 @@ export const data = {
         agenda: [
             {
                 horario: '08h',
-                aluno: 'Vago'
+                aluno: 'Vinicius Python 1/5'
             },
             {
                 horario: '09h',
-                aluno: 'Vago'
+                aluno: 'Cadu'
             },
             {
                 horario: '10h',
-                aluno: 'Vago',
+                aluno: 'Matheus',
             },
             {
                 horario: '11h',
@@ -319,7 +319,7 @@ export const data = {
             },
             {
                 horario: '13h',
-                aluno: 'Vago'
+                aluno: 'Dione'
             },
             {
                 horario: '14h',
@@ -335,15 +335,15 @@ export const data = {
             },
             {
                 horario: '17h',
-                aluno: 'Vago'
+                aluno: 'Aluno Novo - 23 fev'
             },
             {
                 horario: '18h',
-                aluno: 'Vago'
+                aluno: 'Caio'
             },
             {
                 horario: '19h',
-                aluno: 'Vago'
+                aluno: 'Varao'
             },
             {
                 horario: '20h',
@@ -379,11 +379,11 @@ export const data = {
             },
             {
                 horario: '10h',
-                aluno: 'Vago',
+                aluno: 'Rocco',
             },
             {
                 horario: '11h',
-                aluno: 'Vago'
+                aluno: 'Rocco'
             },
             {
                 horario: '12h',
