@@ -63,11 +63,7 @@ export const data = {
             },
             {
                 horario: '21h',
-                aluno: 'Vago'
-            },
-            {
-                horario: '22h',
-                aluno: 'Vago'
+                aluno: 'Ariadna - Js'
             },
         ]
     },
@@ -83,11 +79,11 @@ export const data = {
         agenda: [
             {
                 horario: '08h',
-                aluno: 'Vago'
+                aluno: 'Cadu V.'
             },
             {
                 horario: '09h',
-                aluno: 'Vago'
+                aluno: 'Cadu V.'
             },
             {
                 horario: '10h',
@@ -135,11 +131,7 @@ export const data = {
             },
             {
                 horario: '21h',
-                aluno: 'Felipe Zacharias'
-            },
-            {
-                horario: '22h',
-                aluno: 'Vago'
+                aluno: 'Ariadna - Js'
             },
         ]
     },
@@ -209,10 +201,6 @@ export const data = {
                 horario: '21h',
                 aluno: 'Vago'
             },
-            {
-                horario: '22h',
-                aluno: 'Vago'
-            },
         ]
     },
     quinta: {
@@ -227,11 +215,11 @@ export const data = {
         agenda: [
             {
                 horario: '08h',
-                aluno: 'Vago'
+                aluno: 'Cadu V.'
             },
             {
                 horario: '09h',
-                aluno: 'Dione'
+                aluno: 'Cadu V.'
             },
             {
                 horario: '10h',
@@ -281,10 +269,6 @@ export const data = {
                 horario: '21h',
                 aluno: 'Vago'
             },
-            {
-                horario: '22h',
-                aluno: 'Vago'
-            },
         ]
     },
     sexta: {
@@ -307,7 +291,7 @@ export const data = {
             },
             {
                 horario: '10h',
-                aluno: 'Vago',
+                aluno: 'Raquel',
             },
             {
                 horario: '11h',
@@ -347,16 +331,8 @@ export const data = {
             },
             {
                 horario: '20h',
-                aluno: 'Vago'
-            },
-            {
-                horario: '21h',
-                aluno: 'Vago'
-            },
-            {
-                horario: '22h',
-                aluno: 'Vago'
-            },
+                aluno: 'Kaska'
+            }
         ]
     },
     sabado: {
@@ -396,39 +372,7 @@ export const data = {
             {
                 horario: '14h',
                 aluno: 'Vago'
-            },
-            {
-                horario: '15h',
-                aluno: 'Vago'
-            },
-            {
-                horario: '16h',
-                aluno: 'Vago'
-            },
-            {
-                horario: '17h',
-                aluno: 'Vago'
-            },
-            {
-                horario: '18h',
-                aluno: 'Vago'
-            },
-            {
-                horario: '19h',
-                aluno: 'Vago'
-            },
-            {
-                horario: '20h',
-                aluno: 'Vago'
-            },
-            {
-                horario: '21h',
-                aluno: 'Vago'
-            },
-            {
-                horario: '22h',
-                aluno: 'Vago'
-            },
+            }
         ]
     }
 };
