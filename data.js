@@ -59,7 +59,7 @@ export const data = {
             },
             {
                 horario: '20h',
-                aluno: 'Lucas Python'
+                aluno: 'Vaga'
             },
             {
                 horario: '21h',
@@ -195,7 +195,7 @@ export const data = {
             },
             {
                 horario: '20h',
-                aluno: 'Lucas Python'
+                aluno: 'Vago'
             },
             {
                 horario: '21h',
@@ -263,7 +263,7 @@ export const data = {
             },
             {
                 horario: '20h',
-                aluno: 'Arthur'
+                aluno: 'Vago'
             },
             {
                 horario: '21h',
@@ -307,7 +307,7 @@ export const data = {
             },
             {
                 horario: '14h',
-                aluno: 'Break Out'
+                aluno: 'Vago'
             },
             {
                 horario: '15h',
@@ -331,7 +331,7 @@ export const data = {
             },
             {
                 horario: '20h',
-                aluno: 'Kaska'
+                aluno: 'Vago'
             }
         ]
     },
