@@ -47,7 +47,7 @@ export const data = {
             },
             {
                 horario: '17h',
-                aluno: 'Diego Python Navio'
+                aluno: 'Vago'
             },
             {
                 horario: '18h',
@@ -167,7 +167,7 @@ export const data = {
             },
             {
                 horario: '13h',
-                aluno: 'Vago'
+                aluno: 'Rhuan Luxemburgo'
             },
             {
                 horario: '14h',
@@ -183,7 +183,7 @@ export const data = {
             },
             {
                 horario: '17h',
-                aluno: 'Diego Python Navio'
+                aluno: 'Vago'
             },
             {
                 horario: '18h',
@@ -235,7 +235,7 @@ export const data = {
             },
             {
                 horario: '13h',
-                aluno: 'Vago'
+                aluno: 'Rhuan Luxemburgo'
             },
             {
                 horario: '14h',
@@ -251,7 +251,7 @@ export const data = {
             },
             {
                 horario: '17h',
-                aluno: 'Diego Python Navio'
+                aluno: 'Vago'
             },
             {
                 horario: '18h',
@@ -319,7 +319,7 @@ export const data = {
             },
             {
                 horario: '17h',
-                aluno: 'Diego Python Navio'
+                aluno: 'Vago'
             },
             {
                 horario: '18h',
