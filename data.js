@@ -147,7 +147,7 @@ export const data = {
         agenda: [
             {
                 horario: '08h',
-                aluno: 'Vago'
+                aluno: 'Veraldino'
             },
             {
                 horario: '09h',
@@ -159,7 +159,7 @@ export const data = {
             },
             {
                 horario: '11h',
-                aluno: 'Duds - Primeiro momento'
+                aluno: 'Vago'
             },
             {   
                 horario: '12h',
@@ -263,7 +263,7 @@ export const data = {
             },
             {
                 horario: '20h',
-                aluno: 'Vago'
+                aluno: 'Veraldino'
             },
             {
                 horario: '21h',
@@ -345,10 +345,6 @@ export const data = {
             return data.getDate() + '/' + (data.getMonth() + 1) + '/' + data.getFullYear();
         },
         agenda: [
-            {
-                horario: '08h',
-                aluno: 'Vago'
-            },
             {
                 horario: '09h',
                 aluno: 'Vago'
