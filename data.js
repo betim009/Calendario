@@ -15,11 +15,11 @@ export const data = {
             },
             {
                 horario: '09h',
-                aluno: 'Gabriel Jesus'
+                aluno: 'Vago'
             },
             {
                 horario: '10h',
-                aluno: 'Gabriel Jesus'
+                aluno: 'Vago'
             },
             {
                 horario: '11h',
@@ -59,11 +59,11 @@ export const data = {
             },
             {
                 horario: '20h',
-                aluno: 'Vaga'
+                aluno: 'Ariadna - Js'
             },
             {
                 horario: '21h',
-                aluno: 'Ariadna - Js'
+                aluno: 'Vago'
             },
         ]
     },
