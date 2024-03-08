@@ -291,7 +291,7 @@ export const data = {
             },
             {
                 horario: '10h',
-                aluno: 'Vago',
+                aluno: 'Lucas JS / Futebas',
             },
             {
                 horario: '11h',
@@ -331,7 +331,7 @@ export const data = {
             },
             {
                 horario: '20h',
-                aluno: 'Vago'
+                aluno: 'Dione'
             }
         ]
     },
