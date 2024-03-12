@@ -11,7 +11,7 @@ export const data = {
         agenda: [
             {
                 horario: '08h',
-                aluno: 'Mathzz'
+                aluno: 'Henrique /Portugal'
             },
             {
                 horario: '09h',
@@ -59,7 +59,7 @@ export const data = {
             },
             {
                 horario: '20h',
-                aluno: 'Ariadna - Js'
+                aluno: 'Vago'
             },
             {
                 horario: '21h',
@@ -127,11 +127,11 @@ export const data = {
             },
             {
                 horario: '20h',
-                aluno: 'Artur / Ariadna - JS'
+                aluno: 'Ariadna'
             },
             {
                 horario: '21h',
-                aluno: 'Vago'
+                aluno: 'Ariadna'
             },
         ]
     },
@@ -147,7 +147,7 @@ export const data = {
         agenda: [
             {
                 horario: '08h',
-                aluno: 'Veraldino'
+                aluno: 'Veraldino ?'
             },
             {
                 horario: '09h',
@@ -155,7 +155,7 @@ export const data = {
             },
             {
                 horario: '10h',
-                aluno: 'Vago',
+                aluno: 'Eduardo',
             },
             {
                 horario: '11h',
