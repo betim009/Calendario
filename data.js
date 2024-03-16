@@ -59,7 +59,7 @@ export const data = {
             },
             {
                 horario: '20h',
-                aluno: 'Eduardo Cobbaert'
+                aluno: 'Arthur Cobbaert'
             },
             {
                 horario: '21h',
