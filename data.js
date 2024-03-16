@@ -59,7 +59,7 @@ export const data = {
             },
             {
                 horario: '20h',
-                aluno: 'Vago'
+                aluno: 'Eduardo Cobbaert'
             },
             {
                 horario: '21h',
@@ -111,7 +111,7 @@ export const data = {
             },
             {
                 horario: '16h',
-                aluno: 'Stefan'
+                aluno: 'Stefan - Disponivel apenas 19/03'
             },
             {
                 horario: '17h',
@@ -247,7 +247,7 @@ export const data = {
             },
             {
                 horario: '16h',
-                aluno: 'Stefan'
+                aluno: 'Stefan - Disponivel apenas no dia 21/03'
             },
             {
                 horario: '17h',
