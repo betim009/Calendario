@@ -127,11 +127,11 @@ export const data = {
             },
             {
                 horario: '20h',
-                aluno: 'Ariadna'
+                aluno: 'Vago'
             },
             {
                 horario: '21h',
-                aluno: 'Ariadna'
+                aluno: 'Vago'
             },
         ]
     },
