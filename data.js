@@ -39,7 +39,7 @@ export const data = {
             },
             {
                 horario: '15h',
-                aluno: 'Bruno Papalegolas'
+                aluno: 'Vago'
             },
             {
                 horario: '16h',
@@ -239,7 +239,7 @@ export const data = {
             },
             {
                 horario: '14h',
-                aluno: 'Arthur Sistema de Informação'
+                aluno: '21 MARÇO VAGO - Arthur Sistema de Informação'
             },
             {
                 horario: '15h',
@@ -287,7 +287,7 @@ export const data = {
             },
             {
                 horario: '09h',
-                aluno: 'Vinicius Python 3/5'
+                aluno: 'Vinicius 4/5'
             },
             {
                 horario: '10h',
@@ -307,7 +307,7 @@ export const data = {
             },
             {
                 horario: '14h',
-                aluno: 'Vago'
+                aluno: 'Fernando 1/10 - PYTHON'
             },
             {
                 horario: '15h',
@@ -363,7 +363,7 @@ export const data = {
             },
             {
                 horario: '15h',
-                aluno: 'Vago'
+                aluno: 'Londres - 1/5'
             },
 
         ]

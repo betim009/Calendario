@@ -1,7 +1,6 @@
 import { data } from "./data.js";
 const divResultados = document.getElementById('resultados');
 
-
 const createElements = (string, array, data) => {
     divResultados.innerHTML += `
     <div class="dias border border-3 rounded">
