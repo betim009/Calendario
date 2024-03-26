@@ -123,11 +123,11 @@ export const data = {
             },
             {
                 horario: '19h',
-                aluno: 'Vago'
+                aluno: 'Favela'
             },
             {
                 horario: '20h',
-                aluno: 'Vago'
+                aluno: 'Michel New York'
             },
             {
                 horario: '21h',
