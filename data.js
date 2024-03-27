@@ -282,7 +282,7 @@ export const data = {
         },
         agenda: [
             {
-                horario: 'Henrique Portugal',
+                horario: 'Henrique',
                 aluno: 'Vago'
             },
             {
