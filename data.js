@@ -267,7 +267,7 @@ export const data = {
             },
             {
                 horario: '21h',
-                aluno: 'Vago'
+                aluno: 'Michel New York'
             },
         ]
     },
