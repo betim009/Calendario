@@ -39,7 +39,7 @@ export const data = {
             },
             {
                 horario: '15h',
-                aluno: 'Thainara'
+                aluno: 'Vago'
             },
             {
                 horario: '16h',
@@ -47,7 +47,7 @@ export const data = {
             },
             {
                 horario: '17h',
-                aluno: 'Vago'
+                aluno: 'Marco A.'
             },
             {
                 horario: '18h',
@@ -111,7 +111,7 @@ export const data = {
             },
             {
                 horario: '16h',
-                aluno: 'Stefan - Disponivel apenas 19/03'
+                aluno: 'Stefan'
             },
             {
                 horario: '17h',
@@ -239,7 +239,7 @@ export const data = {
             },
             {
                 horario: '14h',
-                aluno: '21 MARÇO VAGO - Arthur Sistema de Informação'
+                aluno: 'VAGO'
             },
             {
                 horario: '15h',
@@ -247,11 +247,11 @@ export const data = {
             },
             {
                 horario: '16h',
-                aluno: 'Stefan - Disponivel apenas no dia 21/03'
+                aluno: 'Stefan'
             },
             {
                 horario: '17h',
-                aluno: 'Vago'
+                aluno: 'Marco A.'
             },
             {
                 horario: '18h',
@@ -331,7 +331,7 @@ export const data = {
             },
             {
                 horario: '20h',
-                aluno: 'Vago'
+                aluno: 'V. Junior'
             }
         ]
     },
