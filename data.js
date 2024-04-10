@@ -331,7 +331,11 @@ export const data = {
             },
             {
                 horario: '20h',
-                aluno: 'V. Junior'
+                aluno: 'Vago'
+            },
+            {
+                horario: '21',
+                aluno: 'Vago'
             }
         ]
     },
@@ -351,11 +355,11 @@ export const data = {
             },
             {
                 horario: '10h',
-                aluno: 'Rocco',
+                aluno: 'Vago apenas no dia 13/4 - Rocco',
             },
             {
                 horario: '11h',
-                aluno: 'Rocco'
+                aluno: 'Vago apenas no dia 13/4 - Rocco'
             },
             {
                 horario: '14h',
