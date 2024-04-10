@@ -369,7 +369,14 @@ export const data = {
                 horario: '15h',
                 aluno: 'Londres - 3?4/5'
             },
-
+            {
+                horario: '16h',
+                aluno: 'Vago (para agendar esse horário preço de 40 reais h/aula sem desconto)'
+            },
+            {
+                horario: '17h',
+                aluno: 'Vago (para agendar esse horário preço de 40 reais h/aula sem desconto)'
+            },
         ]
     }
 };

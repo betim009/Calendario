@@ -9,7 +9,7 @@ const createElements = (string, array, data) => {
             <h2>${data}</h2>
         </div>
         ${array.map((e) =>
-        e.aluno === "Vago" ? `<p class="bg-dark text-white fw-bold p-1">${e.horario} ${e.aluno}</p>` :
+        e.aluno.includes("Vago") ? `<p class="bg-dark text-white fw-bold p-1">${e.horario} ${e.aluno}</p>` :
         `<p class="p-1 border-bottom border-dark">${e.horario}  ${e.aluno}</p>`).join(" ")}
     </div>
     `;
