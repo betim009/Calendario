@@ -367,7 +367,7 @@ export const data = {
             },
             {
                 horario: '15h',
-                aluno: 'Londres - 1/5'
+                aluno: 'Londres - 3?4/5'
             },
 
         ]
