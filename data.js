@@ -282,12 +282,12 @@ export const data = {
         },
         agenda: [
             {
-                horario: 'Henrique',
-                aluno: 'Vago'
+                horario: '08h',
+                aluno: 'Henrique'
             },
             {
                 horario: '09h',
-                aluno: 'Vinicius 5/5'
+                aluno: 'Vago apenas no dia - 12/04 - Vinicius 1/10'
             },
             {
                 horario: '10h',
