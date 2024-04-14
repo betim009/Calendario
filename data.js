@@ -65,6 +65,10 @@ export const data = {
                 horario: '21h',
                 aluno: 'Vago'
             },
+            {
+                horario: '22h',
+                aluno: 'Vago (esse horario não tem desconto, valor 40 reais h/aula)'
+            }
         ]
     },
     terca: {
@@ -133,6 +137,10 @@ export const data = {
                 horario: '21h',
                 aluno: 'Vago'
             },
+            {
+                horario: '22h',
+                aluno: 'Vago (esse horario não tem desconto, valor 40 reais h/aula)'
+            }
         ]
     },
     quarta: {
@@ -201,6 +209,10 @@ export const data = {
                 horario: '21h',
                 aluno: 'Pedro'
             },
+            {
+                horario: '22h',
+                aluno: 'Vago (esse horario não tem desconto, valor 40 reais h/aula)'
+            }
         ]
     },
     quinta: {
@@ -269,6 +281,10 @@ export const data = {
                 horario: '21h',
                 aluno: 'Vago'
             },
+            {
+                horario: '22h',
+                aluno: 'Vago (esse horario não tem desconto, valor 40 reais h/aula)'
+            }
         ]
     },
     sexta: {
@@ -336,6 +352,10 @@ export const data = {
             {
                 horario: '21',
                 aluno: 'Vago'
+            },
+            {
+                horario: '22h',
+                aluno: 'Vago (esse horario não tem desconto, valor 40 reais h/aula)'
             }
         ]
     },
@@ -355,11 +375,11 @@ export const data = {
             },
             {
                 horario: '10h',
-                aluno: 'Vago apenas no dia 13/4 - Rocco',
+                aluno: 'Rocco',
             },
             {
                 horario: '11h',
-                aluno: 'Vago apenas no dia 13/4 - Rocco'
+                aluno: 'Rocco'
             },
             {
                 horario: '14h',
@@ -367,7 +387,7 @@ export const data = {
             },
             {
                 horario: '15h',
-                aluno: 'Londres - 3?4/5'
+                aluno: 'Vago'
             },
             {
                 horario: '16h',
