@@ -91,7 +91,7 @@ export const data = {
             },
             {
                 horario: '10h',
-                aluno: 'Vago',
+                aluno: 'João pedro',
             },
             {
                 horario: '11h',
@@ -307,7 +307,7 @@ export const data = {
             },
             {
                 horario: '10h',
-                aluno: 'Vago',
+                aluno: 'João Pedro',
             },
             {
                 horario: '11h',
