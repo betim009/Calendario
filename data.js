@@ -371,11 +371,11 @@ export const data = {
         agenda: [
             {
                 horario: '09h',
-                aluno: 'Lidiane'
+                aluno: 'Marco A.'
             },
             {
                 horario: '10h',
-                aluno: 'Vago',
+                aluno: 'Marco A.',
             },
             {
                 horario: '11h',
@@ -398,5 +398,30 @@ export const data = {
                 aluno: 'Vago (para agendar esse horário preço de 40 reais h/aula sem desconto)'
             },
         ]
-    }
+    },
+    domingo: {
+        title: 'Domingo',
+        data: () => {
+            let data = new Date();
+            let diaSemana = data.getDay();
+            // Calcula a diferença de dias até o próximo domingo
+            let diferencaDias = diaSemana === 0 ? 0 : 7 - diaSemana;
+            data.setDate(data.getDate() + diferencaDias);
+            return data.getDate() + '/' + (data.getMonth() + 1) + '/' + data.getFullYear();
+        },
+        agenda: [
+            {
+                horario: '09h',
+                aluno: 'Marco A.'
+            },
+            {
+                horario: '10h',
+                aluno: 'Marco A.'
+            },
+            {
+                horario: '11h',
+                aluno: 'Vago'
+            },
+        ]
+    },
 };
