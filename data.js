@@ -67,7 +67,7 @@ export const data = {
             },
             {
                 horario: '22h',
-                aluno: 'Vago (esse horario não tem desconto, valor 40 reais h/aula)'
+                aluno: 'Vago (esse hoterrario não tem desconto, valor 40 reais h/aula)'
             }
         ]
     },
@@ -123,7 +123,7 @@ export const data = {
             },
             {
                 horario: '18h',
-                aluno: 'Vago'
+                aluno: 'Arthur Cobb...'
             },
             {
                 horario: '19h',
@@ -371,7 +371,7 @@ export const data = {
         agenda: [
             {
                 horario: '09h',
-                aluno: 'Marco A.'
+                aluno: 'Lidiane'
             },
             {
                 horario: '10h',
