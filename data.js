@@ -19,11 +19,11 @@ export const data = {
             },
             {
                 horario: '10h',
-                aluno: 'Guilherme'
+                aluno: 'Vago'
             },
             {
                 horario: '11h',
-                aluno: 'Leonardo - Filho 2/10'
+                aluno: 'Arthur'
             },
             {
                 horario: '12h',
@@ -35,7 +35,7 @@ export const data = {
             },
             {
                 horario: '14h',
-                aluno: 'Leonardo 1/10'
+                aluno: 'Henri'
             },
             {
                 horario: '15h',
@@ -63,7 +63,7 @@ export const data = {
             },
             {
                 horario: '21h',
-                aluno: 'Micaella'
+                aluno: 'Vago'
             },
             {
                 horario: '22h',
@@ -187,7 +187,7 @@ export const data = {
             },
             {
                 horario: '16h',
-                aluno: 'Nemias Santos'
+                aluno: 'Marcão'
             },
             {
                 horario: '17h',
@@ -203,7 +203,7 @@ export const data = {
             },
             {
                 horario: '20h',
-                aluno: 'Micaella'
+                aluno: 'Vago'
             },
             {
                 horario: '21h',
@@ -235,11 +235,11 @@ export const data = {
             },
             {
                 horario: '10h',
-                aluno: 'Guilherme',
+                aluno: 'Vago',
             },
             {
                 horario: '11h',
-                aluno: 'Leonardo - Novo Filho'
+                aluno: 'Arthur'
             },
             {
                 horario: '12h',
@@ -251,7 +251,7 @@ export const data = {
             },
             {
                 horario: '14h',
-                aluno: 'Nemias Santos'
+                aluno: 'Vago'
             },
             {
                 horario: '15h',
@@ -323,11 +323,11 @@ export const data = {
             },
             {
                 horario: '14h',
-                aluno: 'Leonardo 2/10'
+                aluno: 'Henri'
             },
             {
                 horario: '15h',
-                aluno: 'Nemias Santos'
+                aluno: 'Vago'
             },
             {
                 horario: '16h',
