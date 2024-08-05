@@ -31,7 +31,7 @@ export const data = {
             },
             {
                 horario: '13h',
-                aluno: 'Luxemburgo'
+                aluno: 'Vago'
             },
             {
                 horario: '14h',
