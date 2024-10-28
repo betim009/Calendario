@@ -27,7 +27,7 @@ export const data = {
             },
             {
                 horario: '12h',
-                aluno: 'Bruno'
+                aluno: 'Vago'
             },
             {
                 horario: '13h',
@@ -59,7 +59,7 @@ export const data = {
             },
             {
                 horario: '20h',
-                aluno: 'Moises'
+                aluno: 'Vago'
             },
             {
                 horario: '21h',
@@ -91,7 +91,7 @@ export const data = {
             },
             {
                 horario: '10h',
-                aluno: 'João pedro',
+                aluno: 'Vago',
             },
             {
                 horario: '11h',
@@ -163,7 +163,7 @@ export const data = {
             },
             {
                 horario: '10h',
-                aluno: 'Vago',
+                aluno: 'João pedro',
             },
             {
                 horario: '11h',
@@ -171,7 +171,7 @@ export const data = {
             },
             {
                 horario: '12h',
-                aluno: 'Bruno'
+                aluno: 'Vago'
             },
             {
                 horario: '13h',
@@ -203,7 +203,7 @@ export const data = {
             },
             {
                 horario: '20h',
-                aluno: 'Moises'
+                aluno: 'Vago'
             },
             {
                 horario: '21h',
@@ -243,7 +243,7 @@ export const data = {
             },
             {
                 horario: '12h',
-                aluno: 'Bruno'
+                aluno: 'Vago'
             },
             {
                 horario: '13h',
@@ -379,7 +379,7 @@ export const data = {
             },
             {
                 horario: '11h',
-                aluno: 'Moises'
+                aluno: 'Vago'
             },
             {
                 horario: '14h',
