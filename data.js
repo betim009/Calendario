@@ -19,7 +19,7 @@ export const data = {
             },
             {
                 horario: '10h',
-                aluno: 'Vago'
+                aluno: 'Marcio'
             },
             {
                 horario: '11h',
@@ -63,7 +63,7 @@ export const data = {
             },
             {
                 horario: '21h',
-                aluno: 'Vago'
+                aluno: 'Thayssa'
             },
             {
                 horario: '22h',
@@ -87,7 +87,7 @@ export const data = {
             },
             {
                 horario: '09h',
-                aluno: 'Vago'
+                aluno: 'Mariana'
             },
             {
                 horario: '10h',
@@ -155,7 +155,7 @@ export const data = {
         agenda: [
             {
                 horario: '08h',
-                aluno: 'Bruna'
+                aluno: 'Vago'
             },
             {
                 horario: '09h',
@@ -207,7 +207,7 @@ export const data = {
             },
             {
                 horario: '21h',
-                aluno: 'Vago'
+                aluno: 'Thayssa'
             },
             {
                 horario: '22h',
@@ -227,15 +227,15 @@ export const data = {
         agenda: [
             {
                 horario: '08h',
-                aluno: 'Bruna'
-            },
-            {
-                horario: '09h',
                 aluno: 'Vago'
             },
             {
+                horario: '09h',
+                aluno: 'Mariana'
+            },
+            {
                 horario: '10h',
-                aluno: 'Vago',
+                aluno: 'Marcio',
             },
             {
                 horario: '11h',
@@ -299,7 +299,7 @@ export const data = {
         agenda: [
             {
                 horario: '08h',
-                aluno: 'Bruna'
+                aluno: 'Vago'
             },
             {
                 horario: '09h',
@@ -347,11 +347,11 @@ export const data = {
             },
             {
                 horario: '20h',
-                aluno: 'Cristovao'
+                aluno: 'Vago'
             },
             {
                 horario: '21',
-                aluno: 'Thayssa'
+                aluno: 'Cristovao'
             },
             {
                 horario: '22h',
