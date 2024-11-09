@@ -347,11 +347,11 @@ export const data = {
             },
             {
                 horario: '20h',
-                aluno: 'Vago'
+                aluno: 'Cristovao'
             },
             {
                 horario: '21',
-                aluno: 'Cristovao'
+                aluno: 'Vago'
             },
             {
                 horario: '22h',
