@@ -83,7 +83,7 @@ export const data = {
         agenda: [
             {
                 horario: '08h',
-                aluno: 'Vago'
+                aluno: 'Ygor'
             },
             {
                 horario: '09h',
@@ -115,11 +115,11 @@ export const data = {
             },
             {
                 horario: '16h',
-                aluno: 'Vago'
+                aluno: 'Enzo'
             },
             {
                 horario: '17h',
-                aluno: 'Vago'
+                aluno: 'Caio'
             },
             {
                 horario: '18h',
@@ -159,7 +159,7 @@ export const data = {
             },
             {
                 horario: '09h',
-                aluno: 'Vago'
+                aluno: 'Coba'
             },
             {
                 horario: '10h',
@@ -195,11 +195,11 @@ export const data = {
             },
             {
                 horario: '18h',
-                aluno: 'Arthur C.'
+                aluno: 'Vago'
             },
             {
                 horario: '19h',
-                aluno: 'Arthur C.'
+                aluno: 'Vago'
             },
             {
                 horario: '20h',
@@ -227,7 +227,7 @@ export const data = {
         agenda: [
             {
                 horario: '08h',
-                aluno: 'Vago'
+                aluno: 'Ygor'
             },
             {
                 horario: '09h',
@@ -235,11 +235,11 @@ export const data = {
             },
             {
                 horario: '10h',
-                aluno: 'Marcio',
+                aluno: 'Vago',
             },
             {
                 horario: '11h',
-                aluno: 'Vago'
+                aluno: 'Coba'
             },
             {
                 horario: '12h',
@@ -263,7 +263,7 @@ export const data = {
             },
             {
                 horario: '17h',
-                aluno: 'Vago'
+                aluno: 'Enzo'
             },
             {
                 horario: '18h',
@@ -311,7 +311,7 @@ export const data = {
             },
             {
                 horario: '11h',
-                aluno: 'Vago'
+                aluno: 'Coba'
             },
             {
                 horario: '12h',
