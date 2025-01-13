@@ -15,7 +15,7 @@ export const data = {
             },
             {
                 horario: '09h',
-                aluno: 'Mariana'
+                aluno: 'Vago'
             },
             {
                 horario: '10h',
@@ -83,7 +83,7 @@ export const data = {
         agenda: [
             {
                 horario: '08h',
-                aluno: 'Ygor'
+                aluno: 'Vago'
             },
             {
                 horario: '09h',
@@ -119,7 +119,7 @@ export const data = {
             },
             {
                 horario: '17h',
-                aluno: 'Enzo'
+                aluno: 'Vago'
             },
             {
                 horario: '18h',
@@ -227,11 +227,11 @@ export const data = {
         agenda: [
             {
                 horario: '08h',
-                aluno: 'Ygor'
+                aluno: 'Vago'
             },
             {
                 horario: '09h',
-                aluno: 'Mariana'
+                aluno: 'Vago'
             },
             {
                 horario: '10h',
@@ -263,7 +263,7 @@ export const data = {
             },
             {
                 horario: '17h',
-                aluno: 'Enzo'
+                aluno: 'Vago'
             },
             {
                 horario: '18h',
