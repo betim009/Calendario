@@ -64,10 +64,6 @@ export const data = {
             {
                 horario: '21h',
                 aluno: 'Bruna'
-            },
-            {
-                horario: '22h',
-                aluno: 'Vago (esse hoterrario não tem desconto, valor 40 reais h/aula)'
             }
         ]
     },
@@ -136,10 +132,6 @@ export const data = {
             {
                 horario: '21h',
                 aluno: 'Cristovao'
-            },
-            {
-                horario: '22h',
-                aluno: 'Vago (esse horario não tem desconto, valor 40 reais h/aula)'
             }
         ]
     },
@@ -208,10 +200,6 @@ export const data = {
             {
                 horario: '21h',
                 aluno: 'Bruna'
-            },
-            {
-                horario: '22h',
-                aluno: 'Vago (esse horario não tem desconto, valor 40 reais h/aula)'
             }
         ]
     },
@@ -280,10 +268,6 @@ export const data = {
             {
                 horario: '21h',
                 aluno: 'Vago'
-            },
-            {
-                horario: '22h',
-                aluno: 'Vago (esse horario não tem desconto, valor 40 reais h/aula)'
             }
         ]
     },
@@ -352,10 +336,6 @@ export const data = {
             {
                 horario: '21',
                 aluno: 'Bruana'
-            },
-            {
-                horario: '22h',
-                aluno: 'Vago (esse horario não tem desconto, valor 40 reais h/aula)'
             }
         ]
     },
