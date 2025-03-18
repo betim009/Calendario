@@ -51,7 +51,7 @@ export const data = {
             },
             {
                 horario: '18h',
-                aluno: 'Vago'
+                aluno: 'Junior Santos'
             },
             {
                 horario: '19h',
@@ -79,11 +79,11 @@ export const data = {
         agenda: [
             {
                 horario: '08h',
-                aluno: 'Rocco'
+                aluno: 'Paulo'
             },
             {
                 horario: '09h',
-                aluno: 'Joao Pedro'
+                aluno: 'Rocco'
             },
             {
                 horario: '10h',
@@ -119,7 +119,7 @@ export const data = {
             },
             {
                 horario: '18h',
-                aluno: 'Vago'
+                aluno: 'Junior Santos'
             },
             {
                 horario: '19h',
@@ -235,7 +235,7 @@ export const data = {
             },
             {
                 horario: '13h',
-                aluno: 'Jana Garcia'
+                aluno: 'Vago'
             },
             {
                 horario: '14h',
