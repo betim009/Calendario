@@ -167,7 +167,7 @@ export const data = {
             },
             {
                 horario: '13h',
-                aluno: 'Vago'
+                aluno: 'Lya'
             },
             {
                 horario: '14h',
