@@ -147,11 +147,11 @@ export const data = {
         agenda: [
             {
                 horario: '08h',
-                aluno: 'Camilla Biom.'
+                aluno: 'Vago'
             },
             {
                 horario: '09h',
-                aluno: 'Camilla Biom.'
+                aluno: 'Vago'
             },
             {
                 horario: '10h',
