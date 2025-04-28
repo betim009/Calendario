@@ -47,7 +47,7 @@ export const data = {
             },
             {
                 horario: '17h',
-                aluno: 'Pedro'
+                aluno: 'Vago'
             },
             {
                 horario: '18h',
@@ -55,7 +55,7 @@ export const data = {
             },
             {
                 horario: '19h',
-                aluno: 'Wesley'
+                aluno: 'Vago'
             },
             {
                 horario: '20h',
@@ -103,7 +103,7 @@ export const data = {
             },
             {
                 horario: '14h',
-                aluno: 'Bernardo'
+                aluno: 'Vago'
             },
             {
                 horario: '15h',
@@ -115,7 +115,7 @@ export const data = {
             },
             {
                 horario: '17h',
-                aluno: 'Pedro'
+                aluno: 'Vago'
             },
             {
                 horario: '18h',
@@ -171,7 +171,7 @@ export const data = {
             },
             {
                 horario: '14h',
-                aluno: 'Bernardo'
+                aluno: 'Vago'
             },
             {
                 horario: '15h',
@@ -183,7 +183,7 @@ export const data = {
             },
             {
                 horario: '17h',
-                aluno: 'Pedro'
+                aluno: 'Vago'
             },
             {
                 horario: '18h',
@@ -195,7 +195,7 @@ export const data = {
             },
             {
                 horario: '20h',
-                aluno: 'Caio'
+                aluno: 'Vago'
             },
             {
                 horario: '21h',
@@ -239,7 +239,7 @@ export const data = {
             },
             {
                 horario: '14h',
-                aluno: 'Bernardo'
+                aluno: 'Vago'
             },
             {
                 horario: '15h',
@@ -251,7 +251,7 @@ export const data = {
             },
             {
                 horario: '17h',
-                aluno: 'Pedro'
+                aluno: 'Vago'
             },
             {
                 horario: '18h',
@@ -315,11 +315,11 @@ export const data = {
             },
             {
                 horario: '16h',
-                aluno: 'Prof. Eric'
+                aluno: 'Jonas'
             },
             {
                 horario: '17h',
-                aluno: 'Prof. Eric'
+                aluno: 'Vago'
             },
             {
                 horario: '18h',
