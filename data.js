@@ -91,11 +91,11 @@ export const data = {
             },
             {
                 horario: '11h',
-                aluno: 'Fabio'
+                aluno: 'Vago'
             },
             {
                 horario: '12h',
-                aluno: 'Fabio'
+                aluno: 'Vago'
             },
             {
                 horario: '13h',
@@ -295,11 +295,11 @@ export const data = {
             },
             {
                 horario: '11h',
-                aluno: 'Fabio'
+                aluno: 'Vago'
             },
             {
                 horario: '12h',
-                aluno: 'Fabio'
+                aluno: 'Vago'
             },
             {
                 horario: '13h',
