@@ -39,11 +39,11 @@ export const data = {
             },
             {
                 horario: '15h',
-                aluno: 'Vago'
+                aluno: 'Jonas'
             },
             {
                 horario: '16h',
-                aluno: 'Jonas'
+                aluno: 'Vago'
             },
             {
                 horario: '17h',
