@@ -1,13 +1,26 @@
+const getNextWeekdayDate = (weekday) => {
+    const today = new Date();
+    const result = new Date(today);
+    const diff = (weekday - today.getDay() + 7) % 7;
+    result.setDate(today.getDate() + diff);
+    return result;
+};
+
+const formatDateInfo = (weekday) => {
+    const date = getNextWeekdayDate(weekday);
+    const display = new Intl.DateTimeFormat('pt-BR', { day: '2-digit', month: 'long' }).format(date);
+    const displayWithYear = new Intl.DateTimeFormat('pt-BR', { day: '2-digit', month: 'long', year: 'numeric' }).format(date);
+    return {
+        display,
+        displayWithYear,
+        date,
+    };
+};
+
 export const data = {
     segunda: {
         title: 'Segunda-feira',
-        data: () => {
-            let data = new Date();
-            let diaSemana = data.getDay();
-            let diferencaDias = diaSemana === 0 ? 1 : diaSemana === 1 ? 0 : 8 - diaSemana;
-            data.setDate(data.getDate() + diferencaDias);
-            return data.getDate() + '/' + (data.getMonth() + 1) + '/' + data.getFullYear();
-        },
+        data: () => formatDateInfo(1),
         agenda: [
             {
                 horario: '08h',
@@ -69,13 +82,7 @@ export const data = {
     },
     terca: {
         title: 'Terça-feira',
-        data: () => {
-            let data = new Date();
-            let diaSemana = data.getDay();
-            let diferencaDias = diaSemana === 0 ? 2 : diaSemana === 1 ? 1 : diaSemana === 2 ? 0 : 9 - diaSemana;
-            data.setDate(data.getDate() + diferencaDias);
-            return data.getDate() + '/' + (data.getMonth() + 1) + '/' + data.getFullYear();
-        },
+        data: () => formatDateInfo(2),
         agenda: [
             {
                 horario: '08h',
@@ -137,13 +144,7 @@ export const data = {
     },
     quarta: {
         title: 'Quarta-feira',
-        data: () => {
-            let data = new Date();
-            let diaSemana = data.getDay();
-            let diferencaDias = diaSemana === 0 ? 3 : diaSemana === 1 ? 2 : diaSemana === 2 ? 1 : diaSemana === 3 ? 0 : 10 - diaSemana;
-            data.setDate(data.getDate() + diferencaDias);
-            return data.getDate() + '/' + (data.getMonth() + 1) + '/' + data.getFullYear();
-        },
+        data: () => formatDateInfo(3),
         agenda: [
             {
                 horario: '08h',
@@ -205,13 +206,7 @@ export const data = {
     },
     quinta: {
         title: 'Quinta-feira',
-        data: () => {
-            let data = new Date();
-            let diaSemana = data.getDay();
-            let diferencaDias = diaSemana === 0 ? 4 : diaSemana === 1 ? 3 : diaSemana === 2 ? 2 : diaSemana === 3 ? 1 : diaSemana === 4 ? 0 : 11 - diaSemana;
-            data.setDate(data.getDate() + diferencaDias);
-            return data.getDate() + '/' + (data.getMonth() + 1) + '/' + data.getFullYear();
-        },
+        data: () => formatDateInfo(4),
         agenda: [
             {
                 horario: '08h',
@@ -273,13 +268,7 @@ export const data = {
     },
     sexta: {
         title: 'Sexta-feira',
-        data: () => {
-            let data = new Date();
-            let diaSemana = data.getDay();
-            let diferencaDias = diaSemana === 0 ? 5 : diaSemana === 1 ? 4 : diaSemana === 2 ? 3 : diaSemana === 3 ? 2 : diaSemana === 4 ? 1 : diaSemana === 5 ? 0 : 12 - diaSemana;
-            data.setDate(data.getDate() + diferencaDias);
-            return data.getDate() + '/' + (data.getMonth() + 1) + '/' + data.getFullYear();
-        },
+        data: () => formatDateInfo(5),
         agenda: [
             {
                 horario: '08h',
@@ -334,20 +323,14 @@ export const data = {
                 aluno: 'Rogerio'
             },
             {
-                horario: '21',
+                horario: '21h',
                 aluno: 'Vago'
             }
         ]
     },
     sabado: {
         title: 'Sábado',
-        data: () => {
-            let data = new Date();
-            let diaSemana = data.getDay();
-            let diferencaDias = diaSemana === 0 ? 6 : diaSemana === 1 ? 5 : diaSemana === 2 ? 4 : diaSemana === 3 ? 3 : diaSemana === 4 ? 2 : diaSemana === 5 ? 1 : diaSemana === 6 ? 0 : 13 - diaSemana;
-            data.setDate(data.getDate() + diferencaDias);
-            return data.getDate() + '/' + (data.getMonth() + 1) + '/' + data.getFullYear();
-        },
+        data: () => formatDateInfo(6),
         agenda: [
             {
                 horario: '09h',
@@ -373,14 +356,7 @@ export const data = {
     },
     domingo: {
         title: 'Domingo',
-        data: () => {
-            let data = new Date();
-            let diaSemana = data.getDay();
-            // Calcula a diferença de dias até o próximo domingo
-            let diferencaDias = diaSemana === 0 ? 0 : 7 - diaSemana;
-            data.setDate(data.getDate() + diferencaDias);
-            return data.getDate() + '/' + (data.getMonth() + 1) + '/' + data.getFullYear();
-        },
+        data: () => formatDateInfo(0),
         agenda: [
             {
                 horario: '10h',
