@@ -16,10 +16,22 @@ const createElements = (title, agenda, dateInfo) => {
               `Alberto gostaria de agendar o horário de ${title}, ${dateInfo.display} às ${slot.horario}. Assim que possível pode me confirmar?`
             );
             const link = `https://wa.me/5528999082744?text=${mensagem}`;
+            const destaque = slot.horario === "21h" || slot.horario === "12h";
+            const aviso21h =
+              (slot.horario === "21h" || slot.horario === "12h") &&
+              slot.aluno.includes("Vago")
+                ? " • esse horario nao ha desconto e nao ha certeza de agendar"
+                : "";
+            const linkClasses = destaque
+              ? "block bg-amber-700 text-white font-bold rounded px-2 py-1 hover:bg-amber-800 transition"
+              : "block bg-green-100 text-green-700 font-bold rounded px-2 py-1 hover:bg-green-200 transition";
+            const textoClasses = destaque
+              ? "border-b pb-1 bg-amber-700 text-white rounded px-2 py-1"
+              : "border-b pb-1 text-gray-700";
 
             return slot.aluno.includes("Vago")
-              ? `<a href="${link}" target="_blank" class="block bg-green-100 text-green-700 font-bold rounded px-2 py-1 hover:bg-green-200 transition">${slot.horario} • ${slot.aluno}</a>`
-              : `<p class="border-b pb-1 text-gray-700">${slot.horario} • ${slot.aluno}</p>`;
+              ? `<a href="${link}" target="_blank" class="${linkClasses}">${slot.horario} • ${slot.aluno}${aviso21h}</a>`
+              : `<p class="${textoClasses}">${slot.horario} • ${slot.aluno}${aviso21h}</p>`;
           })
           .join("")}
       </div>
