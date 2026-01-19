@@ -61,13 +61,10 @@ for (const [dayKey, dia] of Object.entries(data)) {
   createElements(dia.title, dia.agenda, dia.data(), dayKey);
 }
 
-const headerRegras = document.getElementById("header-regras");
 const visitKey = "agenda_visitou";
 const jaVisitou = localStorage.getItem(visitKey) === "1";
 if (!jaVisitou) {
   localStorage.setItem(visitKey, "1");
-} else if (headerRegras) {
-  headerRegras.classList.add("hidden");
 }
 
 if (jaVisitou) {
