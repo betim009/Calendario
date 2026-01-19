@@ -18,9 +18,28 @@
     </header>
 
     <main class="px-4">
-        <div id="resultados" class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="flex justify-center">
+            <div id="resultados" class="w-full max-w-2xl space-y-6">
+            </div>
         </div>
     </main>
+
+    <div id="confirm-modal" class="fixed inset-0 hidden items-center justify-center bg-black/40 px-4">
+        <div class="w-full max-w-md rounded-2xl bg-white p-6 shadow-lg">
+            <h2 class="text-lg font-bold text-gray-800">Confirmar solicitação</h2>
+            <p id="confirm-text" class="mt-2 text-sm text-gray-600"></p>
+            <div class="mt-6 flex justify-end gap-3">
+                <button id="confirm-cancel"
+                    class="rounded-lg border border-gray-300 px-4 py-2 text-gray-700 hover:bg-gray-100">
+                    Cancelar
+                </button>
+                <a id="confirm-send" href="#" target="_blank"
+                    class="rounded-lg bg-green-600 px-4 py-2 font-semibold text-white hover:bg-green-700">
+                    Enviar no WhatsApp
+                </a>
+            </div>
+        </div>
+    </div>
 
     <footer class="text-center py-6 text-sm text-gray-500">
         <p>Agende a sua aula para 2025</p>
