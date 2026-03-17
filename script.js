@@ -2,11 +2,27 @@ import { data } from "./data.js";
 
 const divResultados = document.getElementById("resultados");
 
+const isSlotAvailable = (slot) => slot.aluno.includes("Vago");
+
+const isDayLocked = (agenda) => {
+  const reservedCount = agenda.filter((slot) => !isSlotAvailable(slot)).length;
+  return reservedCount > 8;
+};
+
 const createElements = (title, agenda, dateInfo, dayKey) => {
+  const dayLocked = isDayLocked(agenda);
+
   const cardHtml = `
     <div id="dia-${dayKey}" class="bg-white shadow-md rounded-2xl overflow-hidden">
       <div class="bg-gray-800 text-white p-4">
-        <h2 class="text-xl font-semibold">${title}</h2>
+        <div class="flex flex-wrap items-center gap-2">
+          <h2 class="text-xl font-semibold">${title}</h2>
+          ${
+            dayLocked
+              ? '<span class="rounded bg-red-100 px-2 py-1 text-xs font-semibold text-red-700">Dia bloqueado para novas solicitações.</span>'
+              : ""
+          }
+        </div>
         <h3 class="text-sm text-gray-300">${dateInfo.displayWithYear}</h3>
       </div>
       <div class="p-4 space-y-2">
@@ -35,7 +51,7 @@ const createElements = (title, agenda, dateInfo, dayKey) => {
               ? "block bg-amber-700 text-white font-bold rounded px-2 py-1"
               : "block bg-gray-100 text-gray-700 rounded px-2 py-1";
 
-            return slot.aluno.includes("Vago")
+            return !dayLocked && isSlotAvailable(slot)
               ? `<a href="${link}" data-link="${link}" data-title="${title}" data-horario="${slot.horario}" target="_blank" class="slot-link ${linkClasses}">${slot.horario}${alunoLabel}${aviso21h}</a>`
               : `<p class="${textoClasses}">${slot.horario}${alunoLabel}${aviso21h}</p>`;
           })
